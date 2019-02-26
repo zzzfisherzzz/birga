@@ -1,0 +1,842 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+h3 {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 50px;	
+	font-weight: bold;	
+	letter-spacing: 0.5px;	
+	line-height: 62px;
+}
+
+body {
+	background: url(../img/bg.jpeg) no-repeat center center;
+	background-size: cover;
+	background-attachment: 
+
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/* Header */
+
+header {
+	height: 89px;	
+	width: 100%;	
+	background-color: #181818;
+	display: flex;
+	align-items: center;
+}
+header  .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.get-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;	
+	width: 242px;	
+	background: linear-gradient(223.59deg, #05E2B7 0%, #02A383 100%);
+	font-family: 'Ubuntu', sans-serif;	
+	color: #fff;
+	font-size: 16px;	
+	letter-spacing: 0.55px;	
+	line-height: 22px;
+}
+
+/* Main */
+
+#main {
+	padding-top: 101px;
+	overflow: hidden;
+}
+#main .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#main h4 {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 30px;	
+	font-weight: bold;	
+	letter-spacing: 5px;	
+	line-height: 35px;
+	margin-bottom: 39px;
+}
+#main h2 {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 47px;	
+	font-weight: bold;	
+	letter-spacing: 0.47px;	
+	line-height: 70px;
+	margin-bottom: 39px;
+}
+#main p {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 21px;	
+	letter-spacing: 1px;	
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+#main p:last-child {
+	margin-bottom: 0px;
+}
+.demo-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 71px;	
+	width: 242px;	
+	background: linear-gradient(223.59deg, #05E2B7 0%, #02A383 100%);
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 16px;	
+	letter-spacing: 0.55px;	
+	line-height: 22px;
+	margin-top: 61px;
+}
+
+.main-img {
+	width: 400px;
+	position: relative;
+}
+.iphone {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+/* What is a Crypto Exchange Platform? */
+
+#about {
+	padding-top: 108px;
+}
+#about .container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-img {
+	height: 471px;	
+	width: 440px;
+	margin-right: 110px;
+}
+
+.bitcoim-img img {
+	width: 100%;
+}
+
+.about-text {
+	width: 555px;
+	padding-top: 73px;
+}
+
+.about-text h3 {
+	margin-bottom: 40px;
+}
+.about-text p {
+	color: #FFFFFF;	
+	font-family: "Ubuntu Light";	
+	font-size: 16px;	
+	letter-spacing: 0.4px;	
+	line-height: 30px;
+}
+
+/*Our Platform */
+#our-platform {
+	padding-top: 68px;
+	overflow: hidden;
+}
+#our-platform .container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.our-platform-text {
+	padding-top: 67px;
+	width: 510px;
+}
+.our-platform-text  h3 {
+	margin-bottom: 31px;
+}
+.our-platform-text p {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 16px;	
+	letter-spacing: 0.4px;	
+	line-height: 30px;
+}
+
+.our-platform-img {
+	width: 400px;
+	margin-right: 150px;
+}
+
+/* features */
+
+#features {
+	padding-top: 156px;
+}
+
+#features .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.features-text {
+	padding-top: 49px;
+}
+.features-text h3 {
+	margin-bottom: 60px;
+}
+.features-text p {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 16px;	
+	letter-spacing: 0.4px;	
+	line-height: 40px;
+	position: relative;
+	width: 500px;
+}
+
+
+.features-text p:before {
+	position: absolute;
+    content: '';
+    width: 28px;
+    height: 26px;
+    top: 7px;
+    left: -35px;
+    background: url(../img/diamond.svg) no-repeat center center;
+}
+
+
+.features-text  img {
+	padding-top: 10px;
+	height: 26px;	
+	width: 28px;
+	margin-right: 27px;
+}
+
+.free-req-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 71px;	
+	width: 242px;	
+	background-color: #02A383;
+	color: #FFFFFF;	
+	font-family: Ubuntu;
+	font-size: 16px;	
+	letter-spacing: 0.55px;	
+	line-height: 22px;
+	margin: 0 auto;
+}
+
+/* Coins Available Out of the Box﻿ */
+
+#crypto-coins {
+	padding-top: 155px;
+}
+#crypto-coins h3 {
+	text-align: center;
+	margin-bottom: 39px;
+}
+.coins-block {
+	width: 743px;
+	margin: 0 auto;
+}
+.coins-img {
+	height: 308px;	
+	width: 664px;
+	margin-bottom: 60px;
+}
+.coins-img img {
+	width: 100%;
+}
+.coins-block p {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 16px;	
+	letter-spacing: 0.4px;	
+	line-height: 34px;
+	text-align: center;
+	margin-bottom: 113px;
+}
+/* Advanced Features of 
+our Crypto Exchange Platform */
+
+#advanced-features h3 {
+	text-align: center;
+	margin-bottom: 107px;
+}
+.features-block {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 79px;
+}
+
+.features-item {
+	height: 336px;	
+	width: 345px;
+	padding-top: 36px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.features-item:hover:before {
+	position: absolute;
+    content: '';
+  	height: 336px;	
+	width: 345px;
+  	top: 0;
+  	left: 0;
+  	border-radius: 7px;	
+  	opacity: 0.04;
+  	background-color: #FFFFFF;	
+	box-shadow: 0 0 70px 0 rgba(5,5,5,0.5);
+} 
+
+
+.features-item-img {
+	margin-bottom: 76px;
+}
+.features-title {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 18px;	
+	letter-spacing: 0.45px;	
+	line-height: 34px;	
+	text-align: center;
+	margin-bottom: 19px;
+}
+
+.features-block p {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 12px;	
+	letter-spacing: 0.3px;	
+	line-height: 25px;	
+	text-align: center;
+	width: 279px;
+}
+/* Want to see what 
+our Exchange can do for you?  */
+
+.form-block {
+	height: 820px;	
+	width: 1105px;
+	margin: 0 auto;
+	padding: 59px 39px 81.5px ;
+	position: relative;
+}
+
+.form-block:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	opacity: 0.05;	
+	background-color: #FFFFFF;	
+	box-shadow: 0 0 70px 0 rgba(5,5,5,0.5);
+    z-index: 2;
+}
+
+
+
+.get-in-touch .form-block h3 {
+	margin-bottom: 70px;
+}
+.form-block {
+	margin-bottom: 151px;
+}
+.form-block form {
+	width: 329px;
+}
+.form {
+	display: flex;
+	padding-top: 70px;
+}
+
+.form-block form label {
+	display: block;
+	color: rgba(255,255,255,0.87);	
+	font-family: Ubuntu;	
+	font-size: 12px;	
+	line-height: 16px;
+	margin-bottom: 10px;
+}
+.form-block form input[type=text],
+.form-block form input[type=email],
+.form-block form input[type=text] {
+	width: 100%;
+	height: 30px;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #DFDFDF;
+
+	color: rgba(255,255,255,0.87);	
+	font-family: Ubuntu;	
+	font-size: 16px;	
+	line-height: 24px;
+	padding-bottom: 5px;
+}
+.form-block form input[type=submit] {
+	height: 71px;	
+	width: 242px;	
+	background: linear-gradient(223.59deg, #05E2B7 0%, #02A383 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 16px;	
+	letter-spacing: 0.55px;	
+	line-height: 22px;
+	border: none;
+}
+
+.inputs {
+	margin-bottom: 30px;
+}
+.form-block form p {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 16px;	
+	line-height: 30px;
+	margin-bottom: 24px;
+	z-index: 99
+}
+.form {
+	z-index: 88;
+	position: absolute;
+}
+
+/* Footer */
+
+footer {
+	width: 100%;
+	height: 251px;		
+	background-color: #181818;
+	padding-top: 81px;	
+}
+footer .container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+
+.contact-footer span {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 16px;	
+	letter-spacing: 0.55px;	
+	line-height: 22px;
+	display: block;
+}
+
+.copy {
+	color: #FFFFFF;	
+	font-family: Ubuntu;	
+	font-size: 16px;	
+	letter-spacing: 0.55px;	
+	line-height: 22px;
+	text-align: center;
+	display: block;
+}
+
+
+/* Media */ 
+
+@media screen and (max-width: 1140px) {
+	.container {
+		width: 100%;
+	}
+	header {
+		padding: 0 20px;
+	}
+	#main {
+    padding: 50px 25px 0 25px;
+    overflow: hidden;
+	}
+	#main .container {
+		/*justify-content: space-around;*/
+	}
+
+	#main h4 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	#main h2 {
+		font-size: 40px;
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+	#main p {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.main-img {
+		width: 45%;
+	}
+	.demo-btn {
+		margin-top: 40px;
+	}
+	#about {
+		padding: 108px 30px 0 30px;
+	}
+	.about-img {
+		width: 45%;
+		margin-right: 90px;
+	}
+	.about-img img {
+		width: 100%;
+	}
+	.about-text {
+		width: 44%;
+	}
+	#our-platform {
+		padding: 68px 30px 0 30px;
+	}
+	.our-platform-text {
+		width: 45%;
+	}
+	.our-platform-img {
+		width: 50%;
+		margin-right: 20px;
+		display: flex;
+		align-items: center;
+	}
+	.our-platform-img img {
+		width: 100%;
+	}
+
+	.features-block {
+		justify-content: space-around;
+	}
+	#get-in-touch {
+		padding: 0 20px;
+	}
+
+	#features {
+		padding: 156px 20px 0 20px;
+	}
+	#features .container {
+		margin-bottom: 40px;
+	}
+
+	.features-img {
+		width: 45%;
+	}
+	.features-text {
+		width: 45%;
+
+	}
+	.features-img img {
+		width: 100%;
+	}
+	
+	.form-block {
+		width: 100%;
+	}
+	.features-text p  {
+		width: 100%;
+	}
+	.form-img img {
+		width: 80%;
+	}
+
+
+	
+
+
+
+	footer {
+		padding: 81px 20px 0 20px;
+	}
+
+}
+@media screen and (max-width: 992px) {
+
+	.main-text {
+		width: 45%;
+	}
+	#main h2 {
+		font-size: 27px;
+		line-height: 30px;
+	}
+	#main h4 {
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+	#main p {
+		font-size: 14px;
+		line-height: 15px;
+		letter-spacing: 0;
+		margin-bottom: 10px;
+	}
+	.main-img {
+		width: 45%;
+		right: 40px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	h3 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	#main h2 {
+		font-size: 22px;
+		line-height: 25px;
+	}
+	.about-text {
+		padding-top: 30px;
+	}
+	.about-text h3 {
+		margin-bottom: 20px;
+	}
+	.about-text p {
+		line-height: 20px;
+	}
+	#about .container,
+	#our-platform .container {
+		justify-content: space-around;
+	}
+	.about-img {
+		margin-right: 0;
+	}
+	#our-platform {
+		padding: 0 20px;
+	}
+	.our-platform-text {
+		padding-top: 0;
+	}
+	#features {
+		padding: 60px 20px;
+	}
+	.features-text {
+		padding-top: 0;
+		width: 51%;
+	}
+	.features-text h3 {
+		margin-bottom: 20px;
+	}
+	.features-img {
+		width: 44%;
+	}
+
+	.features-text p {
+		font-size: 14px;
+		line-height: 35px;
+		width: 100%;
+	}
+	#crypto-coins {
+		padding-top: 30px;
+	}
+	.coins-block {
+		width: 100%;
+		padding: 0  20px;
+	}
+	.coins-img  {
+		width: 100%;
+	}
+	#advanced-features h3 {
+		margin-bottom: 60px;
+	}
+	.form {
+		flex-wrap: wrap;
+	}
+	.form-block form {
+		width: 44%;
+	}
+	.form-img {
+		padding-top: 120px;
+		width: 45%;
+	}
+	.form-img img {
+		width: 100%;
+	}
+
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+	h3 {
+		font-size: 20px;
+	}
+	.main-text {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	#main h2 {
+		margin-bottom: 10px;
+	}
+	#main h4 {
+		font-size: 12px;
+		letter-spacing: 1px;
+		line-height: 20px;
+		margin-bottom: 5px;
+	}
+	.main-img {
+		right: 0;
+		width: 100%;
+	}
+	.demo-btn {
+		margin-top: 20px;
+	}
+	#main p {
+		font-size: 12px;
+	}
+	#about {
+		padding: 30px 20px;
+	}
+	.about-img {
+		width: 80%;
+		height: auto;
+		order: 2;
+	}
+	.about-img img {
+		width: 100%;
+	}
+	.about-text {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.our-platform-text {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.our-platform-img {
+		width: 100%;
+	}
+	.features-img {
+		width: 90%;
+		margin: 0 auto;
+		order: 2;
+	}
+	.our-platform-text p {
+		letter-spacing: 0;
+		font-size: 15px;
+	}
+	.features-text {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.features-text p {
+		letter-spacing: 0;
+		font-size: 12px;
+		line-height: 13px;
+		line-height: 30px;
+	}
+	.coins-img {
+		height: auto;
+	}
+	.coins-block p {
+		margin-bottom: 40px;
+	}
+	.form-img {
+		width: 80%;
+		margin: 0 auto;
+		padding-top: 0;
+	}
+	.form-img img  {
+		width: 80%;
+	}
+	.form-block {
+		padding: 20px;
+		margin-bottom: 60px;
+	}
+	.form-block form {
+		margin-bottom: 50px;
+	}
+	.form-block form input[type=submit] {
+		width: 100%;
+	}
+	#advanced-features h3 {
+		margin-bottom: 30px;
+	}
+	.features-item-img {
+		margin-bottom: 30px;
+	}
+	.form {
+		padding-top: 30px;
+	}
+	#features {
+		padding: 30px 20px;
+	}
+	.free-req-btn {
+		width: 100%;
+	}
+	.form-block form {
+    	width: 300px; 
+	}
+	.logo {
+		width: 48%;
+	}
+	.logo img {
+		width: 90%;
+	}
+	.get-btn {
+		width: 50%;
+		font-size: 14px;
+	}
+	#main {
+		padding: 20px;
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+	.form-block form {
+    	width: 240px;
+	}
+	.get-btn {
+	    width: 50%;
+	    font-size: 12px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
